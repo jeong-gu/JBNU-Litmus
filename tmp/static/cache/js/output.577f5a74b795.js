@@ -1,0 +1,1 @@
+window.confirm_and_rejudge=function(form){if(confirm("다시 재채점하겠습니까?")){form.submit();}};;
