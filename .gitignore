@@ -78,3 +78,6 @@ judges.conf.new
 hcpark_log_temp/
 
 site/resources/icons/problems_images/
+
+#settings.py (dev/service)
+site/dmoj/settings.py
