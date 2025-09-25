@@ -627,7 +627,7 @@ class IdFindView(FormView):
             return self.form_invalid(form)
         
         send_mail(
-            subject=_('DMOJ 아이디 찾기'),
+            subject=_('Litmus 아이디 찾기'),
             message=_('아이디: %s' % user.user.username),
             from_email=self.email_context,
             recipient_list=[email],
